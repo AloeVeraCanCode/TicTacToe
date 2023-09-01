@@ -1,0 +1,30 @@
+body{
+    background-color: red;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    gap:10px;
+    margin:150px 0px 0px 0px;
+    background-color: white;
+}
+.flexcontainer{
+    display:flex;
+    justify-content: center;
+}
+p{
+    background-color: skyblue;
+    text-align: center;
+    margin:0px;
+}
+.footerDiv{
+    display:flex;
+    justify-content:space-around;
+    margin:60px;
+    /* position: fixed;
+    bottom: 0px; */
+}
